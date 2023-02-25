@@ -1,6 +1,6 @@
 # Python-Telegram-Rat
 
-Python RAT that uses Telegram as C2 endpoint - It's the serverless telegram version of Python-RAT repo.
+Python RAT for Windows that uses Telegram as C2 endpoint - It's the serverless telegram version of Python-RAT repo.
 
 ## Go botfather and create a bot
 
