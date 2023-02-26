@@ -571,7 +571,7 @@ def managerat(message):
         bot.reply_to(message,b"exit")
         exit()
 
-@bot.message_handler(content_types=['document', 'audio', 'video', 'voice']) # upload document through chat // just send document to bot
+@bot.message_handler(content_types=['document']) # upload document through chat // just send document to bot
 def addfile(message):
     command = message.text
     file_name = message.document.file_name
