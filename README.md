@@ -11,6 +11,9 @@ Python RAT for Windows that uses Telegram as C2 endpoint - It's the serverless t
 ## Run rat client or use pyinstaller to make it executable
 
 ## Start conversation and send commands through Telegram
+## Screenshots
+![ss1](https://github.com/OgulcanUnveren/Python-Telegram-Rat/blob/main/ss/ss1.PNG)
+![ss2](https://github.com/OgulcanUnveren/Python-Telegram-Rat/blob/main/ss/ss2.PNG)
 
 # Features
 keylogger
